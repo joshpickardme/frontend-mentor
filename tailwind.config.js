@@ -12,6 +12,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: { 
+        // Blog Preview Card
+        'bpc-black':'#111111', 
+        'bpc-pure-white':'#FFFFFF', 
+        'bpc-yellow':'#F4D04E', 
+        'bpc-grey':'#7F7F7F',
+        // Next Challenge Below
+        }, 
     },
   },
   plugins: [],

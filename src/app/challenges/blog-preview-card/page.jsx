@@ -4,9 +4,13 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 
+// Components
+import Back from "@/components/master/utils/Back"
+
 export default function about() {
     return (
         <main className="flex bg-bpc-yellow min-w-full min-h-screen justify-center items-center">
+            <Back></Back>
             <motion.div initial={{scale: 0}} animate={{scale: 1}} transition={{duration: 0.4}} className="flex ml-6 mr-6 p-6 gap-6 flex-col w-[384px] rounded-xl bg-bpc-pure-white outline outline-2h outline-bpc-black shadow-[12px_10px_0_1px_rgba(0,0,0,100)]">
                 <Image className="w-full rounded-xl" src={'/blog-preview-card/illustration-article.svg'} width={300} height={150}></Image>
                 <div className="flex flex-col min-w-full gap-3">

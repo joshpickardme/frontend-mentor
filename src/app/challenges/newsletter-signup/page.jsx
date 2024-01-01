@@ -68,7 +68,7 @@ export default function newsletter() {
                         <button onClick={handleSubscribe} className="font-bold text-white bg-news-dark-navy active:bg-gradient-to-t max-w-96 from-[#FF6A3A] to-[#FF527B] p-4 rounded-lg mt-5 hover:shadow-lg duration-200 ">Subscribe to monthly newsletter</button>
                     </div>
                 </div>
-                <Image src={'/newsletter/illustration-sign-up-desktop.svg'}  width={100} height={100} className="hidden lg:flex w-full object-cover min-h-full max-h[593px] rounded-lg"></Image>
+                <Image src={'/newsletter/illustration-sign-up-desktop.svg'}  width={100} height={100} className="hidden lg:flex w-full object-cover min-h-full max-h[593px] max-w-[400px] rounded-lg"></Image>
             </motion.div>}
             {successState &&
             <motion.div initial={{scale: 0}} animate={{scale: 1}} transition={{duration: 0.4}} className="flex flex-col justify-between pb-11 pt-[149px] md:pb-12 md:pt-12 md:justify-evenly gap-6 pl-4 pr-4 md:ml-6 md:mr-6 h-screen bg-white w-screen md:w-[504px] md:p-12 md:h-[520px] md:shadow-lg md:rounded-3xl">

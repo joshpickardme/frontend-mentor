@@ -37,7 +37,7 @@ export default function newsletter() {
 
     return (
         <main className="flex bg-news-pale-navy min-w-full min-h-screen justify-center items-center">
-            <Back></Back>
+            <Back fem={'https://www.frontendmentor.io/solutions/responsive-newsletter-signup-with-react-framer-motion-and-tailwindcss-eNFtEmyVTd'}></Back>
             {!successState &&
             <motion.div initial={{scale: 0}} animate={{scale: 1}} transition={{duration: 0.4}} className="flex flex-col gap-6 lg:gap-20 lg:flex-row lg:items-center lg:justify-between lg:ml-6 lg:mr-6 h-screen bg-white w-screen lg:w-[928px] lg:p-6 lg:pl-16 lg:h-[641px] lg:shadow-lg lg:rounded-3xl">
                 <Image className="w-screen max-w-full max-h-[375px] object-cover lg:hidden" src={'/newsletter/illustration-sign-up-mobile.svg'} height={100} width={100}></Image>
@@ -68,7 +68,7 @@ export default function newsletter() {
                         <button onClick={handleSubscribe} className="font-bold text-white bg-news-dark-navy active:bg-gradient-to-t max-w-96 from-[#FF6A3A] to-[#FF527B] p-4 rounded-lg mt-5 hover:shadow-lg duration-200 ">Subscribe to monthly newsletter</button>
                     </div>
                 </div>
-                <Image src={'/newsletter/illustration-sign-up-desktop.svg'}  width={100} height={100} className="hidden lg:flex w-full object-cover min-h-full rounded-lg"></Image>
+                <Image src={'/newsletter/illustration-sign-up-desktop.svg'}  width={100} height={100} className="hidden lg:flex w-full object-cover min-h-full max-h[593px] rounded-lg"></Image>
             </motion.div>}
             {successState &&
             <motion.div initial={{scale: 0}} animate={{scale: 1}} transition={{duration: 0.4}} className="flex flex-col justify-between pb-11 pt-[149px] md:pb-12 md:pt-12 md:justify-evenly gap-6 pl-4 pr-4 md:ml-6 md:mr-6 h-screen bg-white w-screen md:w-[504px] md:p-12 md:h-[520px] md:shadow-lg md:rounded-3xl">

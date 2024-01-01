@@ -18,7 +18,11 @@ module.exports = {
         'bpc-pure-white':'#FFFFFF', 
         'bpc-yellow':'#F4D04E', 
         'bpc-grey':'#7F7F7F',
-        // Next Challenge Below
+        // Newsletter Signup
+        'news-grey': '#19182B',
+        'news-pale-navy': '#36384D',
+        'news-dark-navy': '#242742',
+        'news-vermellion': '#FF6155'
         }, 
     },
   },

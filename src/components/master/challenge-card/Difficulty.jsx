@@ -13,33 +13,33 @@ export default function Difficulty({number}) {
     useEffect(() => {
         switch(number) {
             case 1:
-                setColourBg('bg-cyan-500')
-                setColourOutline('outline-cyan-500')
-                setColourText('text-cyan-500')
+                setColourBg('bg-fem-cyan')
+                setColourOutline('outline-fem-cyan')
+                setColourText('text-fem-cyan')
                 setTitle('NEWBIE')
                 break;
             case 2:
-                setColourBg('bg-lime-500')
-                setColourOutline('outline-lime-500')
-                setColourText('text-lime-500')
+                setColourBg('bg-fem-lime')
+                setColourOutline('outline-fem-lime')
+                setColourText('text-fem-lime')
                 setTitle('JUNIOR')
                 break;
             case 3:
-                setColourBg('bg-yellow-500')
-                setColourOutline('outline-yellow-500')
-                setColourText('text-yellow-500')
+                setColourBg('bg-fem-yellow')
+                setColourOutline('outline-fem-yellow')
+                setColourText('text-fem-yellow')
                 setTitle('INTERMEDIATE')
                 break;
             case 4:
-                setColourBg('bg-orange-500')
-                setColourOutline('outline-orange-500')
-                setColourText('text-orange-500')
+                setColourBg('bg-fem-orange')
+                setColourOutline('outline-fem-orange')
+                setColourText('text-fem-orange')
                 setTitle('ADVANCED')
                 break;
             case 5:
-                setColourBg('bg-red-500')
-                setColourOutline('outline-red-500')
-                setColourText('text-red-500')
+                setColourBg('bg-fem-red')
+                setColourOutline('outline-fem-red')
+                setColourText('text-fem-red')
                 setTitle('GURU')
                 break;
         }

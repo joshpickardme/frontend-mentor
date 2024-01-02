@@ -8,8 +8,11 @@ import Language from "./Language"
 
 export default function Challenge({title, link, languages, difficulty, description, image}) {
     return (
-        <div className="flex flex-col w-[383px] h-[523px] rounded-lg shadow-md">
-            <Link href={link}><Image className="min-w-full rounded-t-lg cursor-pointer" width={200} height={200} src={image}></Image></Link>
+        <div className="flex flex-col w-screen max-w-[383px] h-[523px] rounded-lg outline outline-1 outline-gray-200 shadow-md">
+            <div className="overflow-hidden">
+                <Link href={link}><Image className="min-w-full object-contain hover:scale-105 duration-200 rounded-t-lg cursor-pointer" width={200} height={200} src={image}></Image></Link>
+            </div>
+            
             <div className="flex flex-col p-5 gap-5">
                 <h1 className="text-2xl cursor-pointer hover:underline"><Link href={link}>{title}</Link></h1>
                 <div className="flex flex-row justify-between w-full">

@@ -13,6 +13,14 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: { 
+        // FEM Colours
+        'fem-cyan': '#6ABECD',
+        'fem-lime': '#AAD742',
+        'fem-yellow': '#F1B604',
+        'fem-orange': '#F48925',
+        'fem-red': '#ED2C49',
+        'fem-pink': '#CF6390',
+        'fem-blue': '#4358A6',
         // Blog Preview Card
         'bpc-black':'#111111', 
         'bpc-pure-white':'#FFFFFF', 

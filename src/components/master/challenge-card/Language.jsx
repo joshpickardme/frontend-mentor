@@ -9,16 +9,16 @@ export default function Language({language}) {
     useEffect(() => {
         switch(language) {
             case 'HTML':
-                setColourText('text-cyan-600')
+                setColourText('text-fem-cyan')
                 break;
             case 'CSS':
-                setColourText('text-blue-600')
+                setColourText('text-fem-blue')
                 break;
             case 'JS':
-                setColourText('text-pink-400')
+                setColourText('text-fem-pink')
                 break;
             case 'API':
-                setColourText('text-lime-500')
+                setColourText('text-fem-lime')
                 break;
         }
     }, [])

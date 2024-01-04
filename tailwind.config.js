@@ -30,7 +30,13 @@ module.exports = {
         'news-grey': '#19182B',
         'news-pale-navy': '#36384D',
         'news-dark-navy': '#242742',
-        'news-vermellion': '#FF6155'
+        'news-vermellion': '#FF6155',
+        // Interactive Rating
+        'rating-dark-blue': '#262E38',
+        'rating-light-grey': '#969FAD',
+        'rating-medium-grey': '#7C8798',
+        'rating-orange': '#FC7614',
+        'rating-very-dark-blue': '#131518',
         }, 
     },
   },

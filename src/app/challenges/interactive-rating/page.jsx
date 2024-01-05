@@ -23,7 +23,7 @@ export default function rating() {
 
     return (
         <main className="flex bg-rating-very-dark-blue min-w-full min-h-screen justify-center items-center">
-            <Back white={true}></Back>
+            <Back fem={'https://www.frontendmentor.io/solutions/interactive-rating-with-framer-motion-animations-cTYntoc2IF'} white={true}></Back>
             {howActive && 
                 <HowCard scores={scores} scoreActive={scoreActive} setScoreActive={setScoreActive} setHowActive={setHowActive} />
             }

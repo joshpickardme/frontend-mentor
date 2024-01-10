@@ -22,5 +22,13 @@ export const challenges = [
         difficulty: 1,
         image: '/interactive-rating/desktop-preview.jpg',
         description: 'This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!'
+    },
+    {
+        title: 'Order Summary',
+        link: 'challenges/order-summary',
+        languages: ['HTML', 'CSS'],
+        difficulty: 1,
+        image: '/order-summary/desktop-preview.jpg',
+        description: 'A perfect project for newbies who are starting to build confidence with layouts!'
     }
 ]

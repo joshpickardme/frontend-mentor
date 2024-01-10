@@ -37,6 +37,13 @@ module.exports = {
         'rating-medium-grey': '#7C8798',
         'rating-orange': '#FC7614',
         'rating-very-dark-blue': '#131518',
+        // Order Summary
+        'order-pale-blue': 'hsl(225, 100%, 94%)',
+        'order-bright-blue': 'hsl(245, 75%, 52%)',
+        'order-very-pale-blue': 'hsl(225, 100%, 98%)',
+        'order-desaturated-blue': 'hsl(224, 23%, 55%)',
+        'order-dark-blue': 'hsl(223, 47%, 23%)',
+        'order-purple': '#766CF1'
         }, 
     },
   },

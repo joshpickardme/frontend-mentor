@@ -43,7 +43,11 @@ module.exports = {
         'order-very-pale-blue': 'hsl(225, 100%, 98%)',
         'order-desaturated-blue': 'hsl(224, 23%, 55%)',
         'order-dark-blue': 'hsl(223, 47%, 23%)',
-        'order-purple': '#766CF1'
+        'order-purple': '#766CF1',
+        // QR Code
+        'qr-dark-navy': '#1F314F',
+        'qr-gray': '#7D889E',
+        'qr-light-gray': '#D5E1EF'
         }, 
     },
   },

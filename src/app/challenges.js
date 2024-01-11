@@ -30,5 +30,13 @@ export const challenges = [
         difficulty: 1,
         image: '/order-summary/desktop-preview.jpg',
         description: 'A perfect project for newbies who are starting to build confidence with layouts!'
+    },
+    {
+        title: 'QR Code',
+        link: 'challenges/qr-code',
+        languages: ['HTML', 'CSS'],
+        difficulty: 1,
+        image: '/qr-code/desktop-preview.jpg',
+        description: "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet."
     }
 ]

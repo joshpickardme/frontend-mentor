@@ -12,7 +12,7 @@ import Back from "@/components/master/utils/Back"
 export default function qr() {
     return (
         <main className="flex bg-qr-light-gray  min-w-full min-h-screen justify-center items-center">
-            <Back></Back>
+            <Back fem={'https://www.frontendmentor.io/solutions/qr-code-component-huPxEfPJEX'}></Back>
             <Card>
                 <Image className="rounded-[10px]" src={'/qr-code/image-qr-code.png'} width={288} height={288}></Image>
                 <div className="flex flex-col items-center gap-4 mt-6 mb-10 min-w-full">

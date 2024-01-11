@@ -12,7 +12,7 @@ export const challenges = [
         link: '/challenges/newsletter-signup',
         languages: ['HTML', 'CSS', 'JS'],
         difficulty: 2,
-        image: '/newsletter/desktop-design.jpg',
+        image: '/newsletter/desktop-preview.jpg',
         description: 'This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.',
     },
     {

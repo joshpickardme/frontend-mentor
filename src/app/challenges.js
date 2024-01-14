@@ -38,5 +38,13 @@ export const challenges = [
         difficulty: 1,
         image: '/qr-code/desktop-preview.jpg',
         description: "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet."
+    },
+    {
+        title: 'Multi Step Form',
+        link: 'challenges/multi-step-form',
+        languages: ['HTML', 'CSS', 'JS'],
+        difficulty: 4,
+        image: '/multi-step-form/desktop-preview.jpg',
+        description: 'An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.'
     }
 ]

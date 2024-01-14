@@ -47,7 +47,20 @@ module.exports = {
         // QR Code
         'qr-dark-navy': '#1F314F',
         'qr-gray': '#7D889E',
-        'qr-light-gray': '#D5E1EF'
+        'qr-light-gray': '#D5E1EF',
+        // Multi Step Form
+        'multi-step-bg': '#EFF5FF',
+        'multi-step-border-color': '#D6D9E6',
+        'multi-step-denim': '#022959',
+        'multi-step-gray': '#9699AA',
+        'multi-step-light-blue': '#ABBCFF',
+        'multi-step-light-gray': '#D6D9E6',
+        'multi-step-orange': '#FFAF7E',
+        'multi-step-pink': '#F9818E',
+        'multi-step-purple': '#483EFF',
+        'multi-step-red-errors': '#EE374A',
+        'multi-step-sky-blue': '#BEE2FD',
+        'multi-step-very-light-gray': '#F8F9FF'
         }, 
     },
   },

@@ -37,7 +37,7 @@ export default function newsletter() {
 
     return (
         <main className="flex bg-news-pale-navy min-w-full min-h-screen justify-center items-center">
-            <Back fem={'https://www.frontendmentor.io/solutions/responsive-newsletter-signup-with-react-framer-motion-and-tailwindcss-eNFtEmyVTd'}></Back>
+            <Back fem={'https://www.frontendmentor.io/solutions/react-tailwind-notifications-page-TdvsUsZMDk'}></Back>
             {!successState &&
             <motion.div initial={{scale: 0}} animate={{scale: 1}} transition={{duration: 0.4}} className="flex flex-col gap-6 lg:gap-20 lg:flex-row lg:items-center lg:justify-between lg:ml-6 lg:mr-6 h-screen bg-white w-screen lg:w-[928px] lg:p-6 lg:pl-16 lg:h-[641px] lg:shadow-lg lg:rounded-3xl">
                 <Image className="w-screen max-w-full max-h-[375px] object-cover lg:hidden" src={'/newsletter/illustration-sign-up-mobile.svg'} height={100} width={100}></Image>

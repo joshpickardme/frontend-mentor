@@ -38,5 +38,13 @@ export const challenges = [
         difficulty: 1,
         image: '/qr-code/desktop-preview.jpg',
         description: "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet."
+    },
+    {
+        title: 'Notifications Page',
+        link: 'challenges/notifications-page',
+        languages: ['HTML', 'CSS', 'JS'],
+        difficulty: 2,
+        image: '/notifications-page/desktop-preview.jpg',
+        description: "This project will be a brilliant test of your HTML, CSS, and basic JavaScript skills. You'll use JS to toggle the visual state of the notifications."
     }
 ]

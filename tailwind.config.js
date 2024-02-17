@@ -47,7 +47,16 @@ module.exports = {
         // QR Code
         'qr-dark-navy': '#1F314F',
         'qr-gray': '#7D889E',
-        'qr-light-gray': '#D5E1EF'
+        'qr-light-gray': '#D5E1EF',
+        // Notifications Page
+        'notifications-blue': '#0A327B',
+        'notifications-red': '#F65552',
+        'notifications-very-dark-grey-blue': '#1C202B',
+        'notifications-dark-grey-blue': '#5E6778',
+        'notifications-grey-blue': '#939CAD',
+        'notifications-light-grey-blue': '#E5EFFA',
+        'notifications-very-light-grey-blue': '#DDE7EE',
+        'notifications-snow': '#F7FAFD'
         }, 
     },
   },

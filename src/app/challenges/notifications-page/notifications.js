@@ -57,7 +57,7 @@ export const notifications = [
         post: "",
         link: "",
         ago: "1 week ago",
-        picture: ""
+        picture: "/notifications-page/image-chess.webp"
     },
     {
         read: true,

@@ -4,6 +4,7 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/challenges/*./components.{jsx}'
   ],
   theme: {
     extend: {
@@ -11,6 +12,10 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"]
       },
       colors: { 
         // FEM Colours
@@ -47,7 +52,16 @@ module.exports = {
         // QR Code
         'qr-dark-navy': '#1F314F',
         'qr-gray': '#7D889E',
-        'qr-light-gray': '#D5E1EF'
+        'qr-light-gray': '#D5E1EF',
+        // Notifications Page
+        'notifications-blue': '#0A327B',
+        'notifications-red': '#F65552',
+        'notifications-very-dark-grey-blue': '#1C202B',
+        'notifications-dark-grey-blue': '#5E6778',
+        'notifications-grey-blue': '#939CAD',
+        'notifications-light-grey-blue': '#E5EFFA',
+        'notifications-very-light-grey-blue': '#DDE7EE',
+        'notifications-snow': '#F7FAFD'
         }, 
     },
   },

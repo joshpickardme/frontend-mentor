@@ -51,7 +51,7 @@ export default function notificationsPage() {
                     <button onClick={markAsRead} className="font-jakarta text-notifications-dark-grey-blue hover:text-notifications-blue transition-all font-medium text-[14px] sm:text-[16px]">Mark all as read</button>
                 </header>
                 <div className="flex flex-col justify-start w-full gap-1">
-                    {notificationsState.map(notification => <Notification name={notification.name} text={notification.text} link={notification.link} post={notification.post} picture={notification.picture} read={notification.read} ago={notification.ago} message={notification.message}/>)}
+                    {notificationsState.map(notification => <Notification image={notification.image} name={notification.name} text={notification.text} link={notification.link} post={notification.post} picture={notification.picture} read={notification.read} ago={notification.ago} message={notification.message}/>)}
                 </div>
             </div>
         </main>

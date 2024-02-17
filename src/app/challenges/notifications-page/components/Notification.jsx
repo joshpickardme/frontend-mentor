@@ -5,7 +5,7 @@ export default function notification({read, name, image, text, message, post, li
     return (
         <div className={`${read ? 'bg-white' : 'bg-notifications-light-grey-blue'} rounded-[8px] w-full p-5 flex flex-row items-center justify-between `}>
             <div className="flex flex-row gap-2 sm:gap-5">
-                <Image className="max-h-[45px] max-w-[45px]" height={45} width={45} src={'/notifications-page/avatar-angela-gray.webp'}></Image>
+                <Image className="max-h-[45px] max-w-[45px]" height={45} width={45} src={image}></Image>
                 <div className="flex flex-col">
                     <p className="m-0 p-0 h-max">
                         <span className="text-notifications-very-dark-grey-blue hover:text-notifications-blue transition-all cursor-pointer w-max text-[14px] sm:text-[16px] font-extrabold font-jakarta ">{name} </span>

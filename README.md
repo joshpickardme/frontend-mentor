@@ -21,7 +21,9 @@
 
 
 ## Description
-Welcome to a showcase of all my Frontend Mentor submissions. I decided instead of creating a repository for each challenge, I would consolidate all my challenges into one big web application. You'll notice that my work doesn't always copy the design 1:1, sometimes that's because it's tricky, sometimes it's because I've adapted the design and done some cool stuff with it. I'm still new to frontend development so it's likely that I'm not using best practices or the most efficient solution, that doesn't really matter to me, I'm happy that I'm making stuff and having fun along the way.
+Welcome to a showcase of all my Frontend Mentor submissions. I decided instead of creating a repository for each challenge, I would consolidate all my challenges into one big web application. 
+
+You'll notice that sometimes I don't copy the challenges exactly 1:1. That's usually because I've done my own spin on the challenges to make them a little bit more exciting.
 
 ## Challenges
 - [x] <a target="_blank" href="https://frontend-mentor-josh-pickards-projects.vercel.app/challenges/blog-preview-card">Blog Preview Card</a>
@@ -29,3 +31,8 @@ Welcome to a showcase of all my Frontend Mentor submissions. I decided instead o
 - [x] <a target="_blank" href="https://frontend-mentor-josh-pickards-projects.vercel.app/challenges/interactive-rating">Interactive Rating</a>
 - [x] <a target="_blank" href="https://frontend-mentor-josh-pickards-projects.vercel.app/challenges/order-summary">Order Summary</a>
 
+## Installation
+If for whatever reason you wish to install the application locally, here are the instructions
+1. Clone the repository
+2. `npm install`
+3. `npm run dev`

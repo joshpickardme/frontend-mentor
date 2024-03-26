@@ -61,7 +61,13 @@ module.exports = {
         'notifications-grey-blue': '#939CAD',
         'notifications-light-grey-blue': '#E5EFFA',
         'notifications-very-light-grey-blue': '#DDE7EE',
-        'notifications-snow': '#F7FAFD'
+        'notifications-snow': '#F7FAFD',
+        // Social Links
+        'sociallinks-black': '#141414',
+        'sociallinks-dark-grey': '#1F1F1F',
+        'sociallinks-grey': '#333333',
+        'sociallinks-white': '#FFFFFF',
+        'sociallinks-neon-green': '#C4F82A'
         }, 
     },
   },

@@ -46,5 +46,13 @@ export const challenges = [
         difficulty: 2,
         image: '/notifications-page/desktop-preview.jpg',
         description: "This project will be a brilliant test of your HTML, CSS, and basic JavaScript skills. You'll use JS to toggle the visual state of the notifications."
+    },
+    {
+        title: "Social Links",
+        link: 'challenges/social-links',
+        languages: ['HTML', 'CSS'],
+        difficulty: 1,
+        image: '/social-links/desktop-preview.jpg',
+        description: "In this small project, you'll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!"
     }
 ]

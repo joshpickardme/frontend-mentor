@@ -40,7 +40,7 @@ export default function notificationsPage() {
     return (
         <main className="flex bg-notifications-snow  min-w-full min-h-screen justify-center items-center">
             <Back fem={'https://www.frontendmentor.io/solutions/react-tailwind-notifications-page-TdvsUsZMDk'}></Back>
-            <div className="flex flex-col w-[730px] p-4 sm:p-8 h-screen sm:h-[900px] items-center rounded-[15px] shadow-md bg-white gap-2">
+            <div className="flex flex-col w-[730px] p-4 sm:p-8 h-screen sm:h-[839px] items-center rounded-[15px] shadow-md bg-white gap-2">
                 <header className="flex flex-row justify-between w-full">
                     <div className="flex gap-3 flex-row items-center">
                         <h1 className=" text-notifications-very-dark-grey-blue m-0 font-jakarta text-[20px] sm:text-[24px] font-extrabold">Notifications</h1>

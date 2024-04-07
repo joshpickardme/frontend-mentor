@@ -5,7 +5,7 @@ const github = "https://www.github.com/joshpickardme";
 
 export default function HomeFooter() {
   return (
-    <div className="flex flex-col gap-1 max-w-[552px] items-center text-center ml-auto mr-auto pt-20 pb-20">
+    <div className="flex flex-col gap-1 max-w-[552px] items-center text-center ml-auto mr-auto">
       <h1 className="font-poppins text-global-blue text-[32px]">
         Oh no! You've reached the end.
       </h1>

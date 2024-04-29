@@ -4,7 +4,7 @@ export const challenges = [
     link: "/challenges/blog-preview-card",
     languages: ["HTML", "CSS"],
     difficulty: 1,
-    image: "/blog-preview-card/preview.png",
+    image: "/blog-preview-card/blog-preview-card.jpg",
     description:
       "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
   },

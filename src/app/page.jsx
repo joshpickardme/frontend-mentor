@@ -10,9 +10,9 @@ import HomeFooter from "@/components/master/utils/HomeFooter";
 
 export default function home() {
   return (
-    <main className="flex flex-col items-center w-full gap-16 pt-6 pb-6 ml-auto mr-auto sm:w-max">
+    <main className="flex flex-col ml-auto mr-auto gap-16 sm:w-max">
       <Header></Header>
-      <div className="flex flex-col justify-start gap-8">
+      <div className="flex flex-col ml-4 mr-4 justify-start gap-8">
         <div className="flex flex-col">
           <h1 className="text-global-blue font-poppins font-medium text-[32px]">
             All Challenges

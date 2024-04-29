@@ -18,7 +18,7 @@ export default function Header() {
   }
 
   return (
-    <header className="flex min-w-full h-[80px] justify-between items-center p-4 rounded-[20px] bg-global-blue">
+    <header className="flex min-w-full h-[80px] justify-between items-center p-4 sm:mt-6 sm:rounded-[20px] bg-global-blue">
       {/* MODAL*/}
       {modal && <Why displayModal={displayModal}></Why>}
       {/* TITLE AND LOGO */}

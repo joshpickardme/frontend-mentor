@@ -29,7 +29,7 @@ import Back from "@/components/master/utils/Back"
 export default function SocialLinks() {
     return (
         <>
-        <Back white={true}></Back>
+        <Back fem={"https://www.frontendmentor.io/solutions/social-links-V-eaR1IxoJ"} white={true}></Back>
         <main className="flex bg-sociallinks-black  min-w-full min-h-screen justify-center items-center">
             <div className="flex flex-col gap-6 items-center bg-sociallinks-dark-grey w-[384px] h-[611px] rounded-[12px] shadow-lg p-10">
                 <Image className="w-[88px] h-[88px] rounded-full" src={"/social-links/avatar-jessica.jpeg"} width={88} height={88}></Image>

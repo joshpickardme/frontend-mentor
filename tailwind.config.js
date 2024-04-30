@@ -74,7 +74,17 @@ module.exports = {
         'sociallinks-dark-grey': '#1F1F1F',
         'sociallinks-grey': '#333333',
         'sociallinks-white': '#FFFFFF',
-        'sociallinks-neon-green': '#C4F82A'
+        'sociallinks-neon-green': '#C4F82A',
+        // Recipe Page
+        'recipepage-dark-charcoal': '#312E2C',
+        'recipepage-dark-raspberry': '#7A284E',
+        'recipepage-brandy-red': '#854632',
+        'recipepage-wenge-brown': '#5F564D',
+        'recipepage-eggshell': '#F3E5D7',
+        'recipepage-white-coffee': '#E3DDD7',
+        'recipepage-snow': '#FFF7FB',
+        'recipepage-white': '#FFFFFF'
+
         }, 
     },
   },

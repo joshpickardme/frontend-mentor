@@ -19,6 +19,9 @@ module.exports = {
         "inter-medium": "var(--font-inter)",
         poppins: ["Poppins", "sans-serif"],
         workBench: ["Workbench", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
+        youngserif: ['Young Serif', 'serif']
+
       },
       colors: {
         // Global

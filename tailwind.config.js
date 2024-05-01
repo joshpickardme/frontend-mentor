@@ -5,7 +5,7 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/challenges/*./components.{jsx}",
+    "./src/app/challenges/*./components.jsx",
   ],
   theme: {
     extend: {
@@ -19,6 +19,9 @@ module.exports = {
         "inter-medium": "var(--font-inter)",
         poppins: ["Poppins", "sans-serif"],
         workBench: ["Workbench", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
+        youngserif: ['Young Serif', 'serif']
+
       },
       colors: {
         // Global
@@ -74,7 +77,17 @@ module.exports = {
         'sociallinks-dark-grey': '#1F1F1F',
         'sociallinks-grey': '#333333',
         'sociallinks-white': '#FFFFFF',
-        'sociallinks-neon-green': '#C4F82A'
+        'sociallinks-neon-green': '#C4F82A',
+        // Recipe Page
+        'recipepage-dark-charcoal': '#312E2C',
+        'recipepage-dark-raspberry': '#7A284E',
+        'recipepage-brandy-red': '#854632',
+        'recipepage-wenge-brown': '#5F564D',
+        'recipepage-eggshell': '#F3E5D7',
+        'recipepage-white-coffee': '#E3DDD7',
+        'recipepage-snow': '#FFF7FB',
+        'recipepage-white': '#FFFFFF'
+
         }, 
     },
   },

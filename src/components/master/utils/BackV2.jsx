@@ -16,13 +16,12 @@ export default function BackV2({fem, git, white=false}) {
         </Link>
         {/* FEM */}
         <Link target={"_blank"} href={fem}>
-        
         <button className={`p-4 w-max ${white ? "bg-white text-gray-800" : "bg-gray-800 text-white"} shadow-lg rounded-lg`}>
           <SiFrontendmentor className="scale-125" />
         </button>
         </Link>
         {/* GitHub */}
-        <Link target={"_blank"} href={git}>
+        <Link target={"_blank"} href={"https://github.com/joshpickardme/frontend-mentor/blob/main/src/app/challenges/recipe-page/page.jsx"}>
         <button className={`p-4 w-max ${white ? "bg-white text-gray-800" : "bg-gray-800 text-white"} shadow-lg rounded-lg`}>
           <FaGithub className="scale-125" />
         </button>

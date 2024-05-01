@@ -84,7 +84,7 @@ export default function recipepage() {
 
   return (
     <>
-    <BackV2 white={false} fem={"https://www.google.com"} git={"https://www.google.com"}/>
+    <BackV2 white={false} fem={"https://www.frontendmentor.io/solutions/recipe-page-with-react-and-tailwind-lmGzrL-hpk"} git={"https://www.google.com"}/>
     <main className="bg-recipepage-eggshell min-h-screen flex justify-center items-center md:pt-[123px] md:pb-[123px]">
       {/* Recipe */}
       <div className="bg-recipepage-white flex flex-col rounded-[24px] max-w-[736px]">
@@ -100,7 +100,7 @@ export default function recipepage() {
           <div className="flex flex-col gap-8">
             {/* Title */}
             <div className="flex flex-col gap-6">
-              <h1 className="font-youngserif text-[36px] md:text-[40px] text-recipepage-dark-charcoal">
+              <h1 className="font-youngserif text-[36px] md:text-[40px] mt-0 pt-0 leading-none text-recipepage-dark-charcoal">
                 Simple Omelette Recipe
               </h1>
               <p className="font-outfit text-recipepage-wenge-brown text-[16px]">
@@ -110,7 +110,7 @@ export default function recipepage() {
               </p>
             </div>
             {/* Prep Time */}
-            <div className="flex flex-col p-7 gap-4">
+            <div className="flex flex-col p-7 gap-4 bg-recipepage-snow">
               <h2 className="font-outfit text-recipepage-dark-raspberry text-[20px] font-semibold">
                 Preparation time
               </h2>

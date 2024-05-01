@@ -115,9 +115,9 @@ export default function recipepage() {
                 Preparation time
               </h2>
               <div className="flex flex-col">
-                <ol className="list-inside inline marker:text-recipepage-dark-raspberry font-outfit">
+                <ol className="list-inside inline list-disc marker:text-recipepage-dark-raspberry font-outfit">
                   {prepTime.map((item) => (
-                    <li key={item} className=" text-recipepage-wenge-brown">
+                    <li key={item} className=" text-recipepage-wenge-brown mb-2">
                       <span className="font-bold ml-4">{item.title}:</span>{" "}
                       {item.time}
                     </li>

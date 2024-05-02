@@ -20,7 +20,9 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         workBench: ["Workbench", "sans-serif"],
         outfit: ["Outfit", "sans-serif"],
-        youngserif: ['Young Serif', 'serif']
+        youngserif: ['Young Serif', 'serif'],
+        fraunces: ['Fraunces', 'serif'],
+        montserrat: ['Montserrat', 'sans-serif']
 
       },
       colors: {

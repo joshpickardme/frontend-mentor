@@ -86,8 +86,13 @@ module.exports = {
         'recipepage-eggshell': '#F3E5D7',
         'recipepage-white-coffee': '#E3DDD7',
         'recipepage-snow': '#FFF7FB',
-        'recipepage-white': '#FFFFFF'
-
+        'recipepage-white': '#FFFFFF',
+        // Product Preview Card
+        'ppc-cream': '#F2EAE2',
+        'ppc-aurometal-saurus': '#6C7289',
+        'ppc-deep-aquamarine': '#3D8168',
+        'ppc-deep-aquamarine-hover': '#1A4032',
+        'ppc-gunmetal': '#1C232B'
         }, 
     },
   },

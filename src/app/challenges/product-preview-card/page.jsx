@@ -40,7 +40,7 @@ export default function ProductPreviewCard() {
                 $169.99
             </h4>
           </div>
-          <button className="flex flex-row items-center justify-center rounded-[8px] gap-3 bg-ppc-deep-aquamarine hover:bg-ppc-deep-aquamarine-hover transition-colors duration-150 text-white font-montserrat font-bold text-[14px] py-4 md:mt-4"><Image className="w-[14] h-[16px]" src={"/product-preview-card/icon-cart.svg"} height={16} width={14.39}></Image>Add to cart</button>
+          <button className="flex flex-row items-center justify-center rounded-[8px] gap-3 bg-ppc-deep-aquamarine hover:bg-ppc-deep-aquamarine-hover transition-colors duration-150 text-white font-montserrat font-bold text-[14px] py-3 md:mt-4"><Image className="w-[14] h-[16px]" src={"/product-preview-card/icon-cart.svg"} height={16} width={14.39}></Image>Add to cart</button>
 
         </div>
       </div>

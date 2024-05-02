@@ -4,7 +4,7 @@ import { useEffect } from "react"
 import Notification from "./components/Notification"
 import { notifications } from "./notifications"
 import { useState } from "react"
-import Back from "@/components/master/utils/Back"
+import BackV2 from "@/components/master/utils/BackV2"
 
 // Loads notifications here
 
@@ -39,7 +39,7 @@ export default function notificationsPage() {
 
     return (
         <main className="flex bg-notifications-snow  min-w-full min-h-screen justify-center items-center">
-            <Back fem={'https://www.frontendmentor.io/solutions/react-tailwind-notifications-page-TdvsUsZMDk'}></Back>
+            <BackV2 fem={'https://www.frontendmentor.io/solutions/react-tailwind-notifications-page-TdvsUsZMDk'} git={"https://github.com/joshpickardme/frontend-mentor/tree/main/src/app/challenges/notifications-page"}></BackV2>
             <div className="flex flex-col w-[730px] p-4 sm:p-8 h-screen sm:h-[839px] items-center rounded-[15px] shadow-md bg-white gap-2">
                 <header className="flex flex-row justify-between w-full">
                     <div className="flex gap-3 flex-row items-center">

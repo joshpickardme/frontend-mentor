@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import BackV2 from "@/components/master/utils/BackV2";
 

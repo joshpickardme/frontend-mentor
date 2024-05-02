@@ -10,7 +10,7 @@ import Score from "./components/Score"
 import Icon from "./components/Icon"
 import HowCard from "./components/HowCard"
 import ThanksCard from "./components/ThanksCard"
-import Back from "@/components/master/utils/Back"
+import BackV2 from "@/components/master/utils/BackV2"
 
 
 
@@ -23,7 +23,7 @@ export default function rating() {
 
     return (
         <main className="flex bg-rating-very-dark-blue min-w-full min-h-screen justify-center items-center">
-            <Back fem={'https://www.frontendmentor.io/solutions/interactive-rating-with-framer-motion-animations-cTYntoc2IF'} white={true}></Back>
+            <BackV2 fem={'https://www.frontendmentor.io/solutions/interactive-rating-with-framer-motion-animations-cTYntoc2IF'} git={"https://github.com/joshpickardme/frontend-mentor/tree/main/src/app/challenges/interactive-rating"} white={true}></BackV2>
             {howActive && 
                 <HowCard scores={scores} scoreActive={scoreActive} setScoreActive={setScoreActive} setHowActive={setHowActive} />
             }

@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 import SocialButton from "./components/SocialButton"
 
@@ -24,12 +25,12 @@ const data = [
     }
 ]
 
-import Back from "@/components/master/utils/Back"
+import BackV2 from "@/components/master/utils/BackV2"
 
 export default function SocialLinks() {
     return (
         <>
-        <Back fem={"https://www.frontendmentor.io/solutions/social-links-V-eaR1IxoJ"} white={true}></Back>
+        <BackV2 fem={"https://www.frontendmentor.io/solutions/social-links-V-eaR1IxoJ"} git={"https://github.com/joshpickardme/frontend-mentor/tree/main/src/app/challenges/social-links"} white={true}></BackV2>
         <main className="flex bg-sociallinks-black  min-w-full min-h-screen justify-center items-center">
             <div className="flex flex-col gap-6 items-center bg-sociallinks-dark-grey w-[384px] h-[611px] rounded-[12px] shadow-lg p-10">
                 <Image className="w-[88px] h-[88px] rounded-full" src={"/social-links/avatar-jessica.jpeg"} width={88} height={88}></Image>

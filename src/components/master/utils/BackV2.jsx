@@ -26,7 +26,7 @@ export default function BackV2({fem, git, white=false}) {
         </button>
         </Link>
         {/* GitHub */}
-        <Link target={"_blank"} href={"https://github.com/joshpickardme/frontend-mentor/blob/main/src/app/challenges/recipe-page/page.jsx"}>
+        <Link target={"_blank"} href={git}>
         <button className={`p-4 w-max ${white ? "bg-white text-gray-800" : "bg-gray-800 text-white"} shadow-lg rounded-lg`}>
           <FaGithub className="scale-125" />
         </button>

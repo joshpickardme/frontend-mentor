@@ -62,5 +62,12 @@ export const challenges = [
         difficulty: 1,
         image: '/recipe-page/desktop-preview.jpg',
         description: "This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content."
+    },
+    {
+        title: "Product Preview Card",
+        link: "challenges/product-preview-card",
+        languages: ['HTML', 'CSS'],
+        difficulty: 1,
+        image: '/product-preview-card/desktop-design.jpg'
     }
 ]

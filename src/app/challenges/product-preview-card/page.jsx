@@ -5,7 +5,7 @@ import BackV2 from "@/components/master/utils/BackV2";
 export default function ProductPreviewCard() {
   return (
     <>
-    <BackV2 fem={"/"} git={"/"}></BackV2>
+    <BackV2 fem={"https://www.frontendmentor.io/solutions/product-preview-card-with-tailwindcss-iBNATvVhHo"} git={"https://github.com/joshpickardme/frontend-mentor/tree/main/src/app/challenges/product-preview-card"}></BackV2>
     <main className="flex min-h-screen bg-ppc-cream justify-center items-center">
       <div className="flex flex-col md:flex-row bg-white w-[343px] h-[611px] md:w-[600px] md:h-[450px] rounded-[10px]">
         <Image

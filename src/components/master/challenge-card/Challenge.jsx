@@ -10,7 +10,7 @@ export default function Challenge({title, link, languages, difficulty, descripti
     return (
         <div className="flex flex-col w-screen sm:max-w-[383px] h-[523px] rounded-lg outline outline-1 outline-gray-200 shadow-md">
             <div className="overflow-hidden">
-                <Link href={link}><Image className="w-full hover:scale-110 duration-300 rounded-t-lg cursor-pointer" width={200} height={200} src={image}></Image></Link>
+                <Link href={link}><Image className="w-full hover:scale-110 duration-300 rounded-t-lg cursor-pointer" width={1000} height={1000} src={image}></Image></Link>
             </div>
             
             <div className="flex flex-col p-5 gap-5">

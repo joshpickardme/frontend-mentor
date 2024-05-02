@@ -68,6 +68,7 @@ export const challenges = [
         link: "challenges/product-preview-card",
         languages: ['HTML', 'CSS'],
         difficulty: 1,
-        image: '/product-preview-card/desktop-design.jpg'
+        image: '/product-preview-card/desktop-preview.jpg',
+        description: "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects."
     }
 ]

@@ -50,9 +50,9 @@ export default function Difficulty({number}) {
     return (
         <div className={`flex flex-row items-center justify-between h-[23px] outline outline-2 ${colourOutline} rounded-lg`}>
             <div className={`w-6 ${colourBg} flex items-center justify-center outline outline-2 ${colourOutline} rounded-l-lg`}>
-                <p className={`text-sm font-bold text-white`}>{number}</p>
+                <p className={`text-sm font-poppins font-bold text-white`}>{number}</p>
             </div>
-            <p className={`p-2 text-sm text-end font-bold ${colourText}`}>{title}</p>
+            <p className={`p-2 font-poppins text-sm text-end font-bold ${colourText}`}>{title}</p>
         </div>
     )
 }

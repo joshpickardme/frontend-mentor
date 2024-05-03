@@ -15,7 +15,7 @@
 </div>
 
 ## Useful Links
-<a target="_blank" href="https://frontend-mentor-josh-pickards-projects.vercel.app">Showcase</a>
+<a target="_blank" href="https://www.frontendmentor.joshpickard.me">Showcase</a>
 <br />
 <a target="_blank" href="https://www.frontendmentor.io/profile/joshpickardme">Frontend Mentor Profile</a>
 
@@ -26,10 +26,15 @@ Welcome to a showcase of all my Frontend Mentor submissions. I decided instead o
 You'll notice that sometimes I don't copy the challenges exactly 1:1. That's usually because I've done my own spin on the challenges to make them a little bit more exciting.
 
 ## Challenges
-- [x] <a target="_blank" href="https://frontend-mentor-josh-pickards-projects.vercel.app/challenges/blog-preview-card">Blog Preview Card</a>
-- [x] <a target="_blank" href="https://frontend-mentor-josh-pickards-projects.vercel.app/challenges/newsletter-signup">Newsletter Signup</a>
-- [x] <a target="_blank" href="https://frontend-mentor-josh-pickards-projects.vercel.app/challenges/interactive-rating">Interactive Rating</a>
-- [x] <a target="_blank" href="https://frontend-mentor-josh-pickards-projects.vercel.app/challenges/order-summary">Order Summary</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/blog-preview-card">Blog Preview Card</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/newsletter-signup">Newsletter Signup</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/interactive-rating">Interactive Rating</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/order-summary">Order Summary</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/qr-code">QR Code</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/notifications-page">Notifications Page</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/social-links">Social Links</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/recipe-page">Recipe Page</a>
+- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/product-preview-card">Product Preview Card</a>
 
 ## Installation
 If for whatever reason you wish to install the application locally, here are the instructions

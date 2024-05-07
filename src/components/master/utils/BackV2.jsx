@@ -4,8 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 import Link from "next/link";
 
-export default function BackV2({fem, git, white=false}) {
-
+export default function BackV2({ fem, git, white = false }) {
   function goBack() {
     window.history.back();
   }
@@ -15,21 +14,35 @@ export default function BackV2({fem, git, white=false}) {
       <div className="flex md:flex-row flex-col-reverse gap-3 p-2 md:p-6">
         {/* Back */}
 
-        <button onClick={goBack} className={`p-4 w-max shadow-lg ${white ? "bg-white text-gray-800" : "bg-gray-800 text-white"} rounded-lg font-semibold font-poppins`}>
+        <Link href={"/"}>
+          <button
+            className={`p-4 w-max shadow-lg ${
+              white ? "bg-white text-gray-800" : "bg-gray-800 text-white"
+            } rounded-lg font-semibold font-poppins`}
+          >
             <IoArrowBack className="scale-125" />
-        </button>
+          </button>
+        </Link>
 
         {/* FEM */}
         <Link target={"_blank"} href={fem}>
-        <button className={`p-4 w-max ${white ? "bg-white text-gray-800" : "bg-gray-800 text-white"} shadow-lg rounded-lg`}>
-          <SiFrontendmentor className="scale-125" />
-        </button>
+          <button
+            className={`p-4 w-max ${
+              white ? "bg-white text-gray-800" : "bg-gray-800 text-white"
+            } shadow-lg rounded-lg`}
+          >
+            <SiFrontendmentor className="scale-125" />
+          </button>
         </Link>
         {/* GitHub */}
         <Link target={"_blank"} href={git}>
-        <button className={`p-4 w-max ${white ? "bg-white text-gray-800" : "bg-gray-800 text-white"} shadow-lg rounded-lg`}>
-          <FaGithub className="scale-125" />
-        </button>
+          <button
+            className={`p-4 w-max ${
+              white ? "bg-white text-gray-800" : "bg-gray-800 text-white"
+            } shadow-lg rounded-lg`}
+          >
+            <FaGithub className="scale-125" />
+          </button>
         </Link>
       </div>
     </div>

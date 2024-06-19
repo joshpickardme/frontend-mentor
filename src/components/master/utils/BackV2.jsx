@@ -18,8 +18,7 @@ export default function BackV2({ fem, git, white = false }) {
           <button
             className={`p-4 w-max shadow-lg ${
               white ? "bg-white text-gray-800" : "bg-gray-800 text-white"
-            } rounded-lg font-semibold font-poppins`}
-          >
+            } rounded-lg font-semibold font-poppins`}>
             <IoArrowBack className="scale-125" />
           </button>
         </Link>
@@ -29,8 +28,7 @@ export default function BackV2({ fem, git, white = false }) {
           <button
             className={`p-4 w-max ${
               white ? "bg-white text-gray-800" : "bg-gray-800 text-white"
-            } shadow-lg rounded-lg`}
-          >
+            } shadow-lg rounded-lg`}>
             <SiFrontendmentor className="scale-125" />
           </button>
         </Link>
@@ -39,8 +37,7 @@ export default function BackV2({ fem, git, white = false }) {
           <button
             className={`p-4 w-max ${
               white ? "bg-white text-gray-800" : "bg-gray-800 text-white"
-            } shadow-lg rounded-lg`}
-          >
+            } shadow-lg rounded-lg`}>
             <FaGithub className="scale-125" />
           </button>
         </Link>

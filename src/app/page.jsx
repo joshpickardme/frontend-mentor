@@ -32,8 +32,7 @@ export default function home() {
               languages={challenge.languages}
               difficulty={challenge.difficulty}
               image={challenge.image}
-              description={challenge.description}
-            ></Challenge>
+              description={challenge.description}></Challenge>
           ))}
         </div>
       </div>

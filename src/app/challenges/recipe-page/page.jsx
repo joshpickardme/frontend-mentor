@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import BackV2 from "@/components/master/utils/BackV2";
 
@@ -85,118 +85,123 @@ export default function recipepage() {
 
   return (
     <>
-    <BackV2 white={false} fem={"https://www.frontendmentor.io/solutions/recipe-page-with-react-and-tailwind-lmGzrL-hpk"} git={"https://www.google.com"}/>
-    <main className="bg-recipepage-eggshell min-h-screen flex justify-center items-center md:pt-[123px] md:pb-[123px]">
-      {/* Recipe */}
-      <div className="bg-recipepage-white flex flex-col rounded-[24px] max-w-[736px]">
-        <div className="flex flex-col p-0 md:p-10 md:pb-0 w-full">
-          <Image
-            className="w-full md:rounded-[12px]"
-            src={"/recipe-page/image-omelette.jpeg"}
-            height={300}
-            width={656}
-          ></Image>
-        </div>
-        <div className="flex flex-col p-8 md:p-10 w-full">
-          <div className="flex flex-col gap-8">
-            {/* Title */}
-            <div className="flex flex-col gap-6">
-              <h1 className="font-youngserif text-[36px] md:text-[40px] mt-0 pt-0 leading-none text-recipepage-dark-charcoal">
-                Simple Omelette Recipe
-              </h1>
-              <p className="font-outfit text-recipepage-wenge-brown text-[16px]">
-                An easy and quick dish, perfect for any meal. This classic
-                omelette combines beaten eggs cooked to perfection, optionally
-                filled with your choice of cheese, vegetables, or meats.
-              </p>
-            </div>
-            {/* Prep Time */}
-            <div className="flex flex-col p-7 gap-4 bg-recipepage-snow">
-              <h2 className="font-outfit text-recipepage-dark-raspberry text-[20px] font-semibold">
-                Preparation time
-              </h2>
-              <div className="flex flex-col">
-                <ol className="list-inside inline list-disc marker:text-recipepage-dark-raspberry font-outfit">
-                  {prepTime.map((item) => (
-                    <li key={item} className=" text-recipepage-wenge-brown mb-2">
-                      <span className="font-bold ml-4">{item.title}:</span>{" "}
-                      {item.time}
+      <BackV2
+        white={false}
+        fem={
+          "https://www.frontendmentor.io/solutions/recipe-page-with-react-and-tailwind-lmGzrL-hpk"
+        }
+        git={"https://www.google.com"}
+      />
+      <main className="bg-recipepage-eggshell min-h-screen flex justify-center items-center md:pt-[123px] md:pb-[123px]">
+        {/* Recipe */}
+        <div className="bg-recipepage-white flex flex-col rounded-[24px] max-w-[736px]">
+          <div className="flex flex-col p-0 md:p-10 md:pb-0 w-full">
+            <Image
+              className="w-full md:rounded-[12px]"
+              src={"/recipe-page/image-omelette.jpeg"}
+              height={300}
+              width={656}></Image>
+          </div>
+          <div className="flex flex-col p-8 md:p-10 w-full">
+            <div className="flex flex-col gap-8">
+              {/* Title */}
+              <div className="flex flex-col gap-6">
+                <h1 className="font-youngserif text-[36px] md:text-[40px] mt-0 pt-0 leading-none text-recipepage-dark-charcoal">
+                  Simple Omelette Recipe
+                </h1>
+                <p className="font-outfit text-recipepage-wenge-brown text-[16px]">
+                  An easy and quick dish, perfect for any meal. This classic
+                  omelette combines beaten eggs cooked to perfection, optionally
+                  filled with your choice of cheese, vegetables, or meats.
+                </p>
+              </div>
+              {/* Prep Time */}
+              <div className="flex flex-col p-7 gap-4 bg-recipepage-snow">
+                <h2 className="font-outfit text-recipepage-dark-raspberry text-[20px] font-semibold">
+                  Preparation time
+                </h2>
+                <div className="flex flex-col">
+                  <ol className="list-inside inline list-disc marker:text-recipepage-dark-raspberry font-outfit">
+                    {prepTime.map((item) => (
+                      <li
+                        key={item}
+                        className=" text-recipepage-wenge-brown mb-2">
+                        <span className="font-bold ml-4">{item.title}:</span>{" "}
+                        {item.time}
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              </div>
+              {/* Ingredients */}
+              <div className="flex flex-col gap-6">
+                <h1 className="text-recipepage-brandy-red text-[28px] font-youngserif">
+                  Ingredients
+                </h1>
+                <ul className="list-inside inline list-disc marker:text-recipepage-brandy-red font-outfit">
+                  {ingredients.map((item) => (
+                    <li
+                      key={item}
+                      className="ml-4 text-recipepage-wenge-brown text-[16px]">
+                      <span className="ml-4">{item}</span>
                     </li>
                   ))}
-                </ol>
+                </ul>
               </div>
-            </div>
-            {/* Ingredients */}
-            <div className="flex flex-col gap-6">
-              <h1 className="text-recipepage-brandy-red text-[28px] font-youngserif">
-                Ingredients
-              </h1>
-              <ul className="list-inside inline list-disc marker:text-recipepage-brandy-red font-outfit">
-                {ingredients.map((item) => (
-                  <li
-                    key={item}
-                    className="ml-4 text-recipepage-wenge-brown text-[16px]"
-                  >
-                    <span className="ml-4">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <hr className="bg-recipepage-white-coffee" />
-            {/* Instructions */}
-            <div className="flex flex-col gap-6">
-              <h1 className="text-recipepage-brandy-red text-[28px] font-youngserif">
-                Instructions
-              </h1>
-              <div className="flex flex-col gap-2">
-                {instructions.map((item) => (
-                  <div key={item} className="flex flex-row gap-8">
-                    <p className="font-outfit text-recipepage-brandy-red font-bold">
-                      {item.number}.
-                    </p>
-                    <p className="text-recipepage-wenge-brown font-outfit">
-                      <span className="font-bold ">{item.title} </span>
-                      {item.description}
-                    </p>
-                  </div>
-                ))}
+              <hr className="bg-recipepage-white-coffee" />
+              {/* Instructions */}
+              <div className="flex flex-col gap-6">
+                <h1 className="text-recipepage-brandy-red text-[28px] font-youngserif">
+                  Instructions
+                </h1>
+                <div className="flex flex-col gap-2">
+                  {instructions.map((item) => (
+                    <div key={item} className="flex flex-row gap-8">
+                      <p className="font-outfit text-recipepage-brandy-red font-bold">
+                        {item.number}.
+                      </p>
+                      <p className="text-recipepage-wenge-brown font-outfit">
+                        <span className="font-bold ">{item.title} </span>
+                        {item.description}
+                      </p>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-            <hr className="bg-recipepage-white-coffee" />
-            {/* Nutrition Table */}
-            <div className="flex flex-col gap-6">
-              <h1 className="text-recipepage-brandy-red text-[28px] font-youngserif">
-                Nutrition
-              </h1>
-              <p className="font-outfit text-recipepage-wenge-brown">
-                The table below shows nutritional values per serving without the
-                additional fillings.
-              </p>
-              <table className="font-outfit" suppressHydrationWarning>
-                <tbody>
-                {nutrition.map((item) => (
-                  <tr
-                    key={item.type}
-                    suppressHydrationWarning
-                    className={`${
-                      item.type !== "Fat" && "border-b"
-                    } border-recipepage-white-coffee`}
-                  >
-                    <td className="text-recipepage-wenge-brown pl-8 pt-3 pb-3">
-                      {item.type}
-                    </td>
-                    <td className="text-recipepage-brandy-red font-bold pr-8 pt-3 pb-3">
-                      {item.amount}
-                    </td>
-                  </tr>
-                ))}
-                </tbody>
-              </table>
+              <hr className="bg-recipepage-white-coffee" />
+              {/* Nutrition Table */}
+              <div className="flex flex-col gap-6">
+                <h1 className="text-recipepage-brandy-red text-[28px] font-youngserif">
+                  Nutrition
+                </h1>
+                <p className="font-outfit text-recipepage-wenge-brown">
+                  The table below shows nutritional values per serving without
+                  the additional fillings.
+                </p>
+                <table className="font-outfit" suppressHydrationWarning>
+                  <tbody>
+                    {nutrition.map((item) => (
+                      <tr
+                        key={item.type}
+                        suppressHydrationWarning
+                        className={`${
+                          item.type !== "Fat" && "border-b"
+                        } border-recipepage-white-coffee`}>
+                        <td className="text-recipepage-wenge-brown pl-8 pt-3 pb-3">
+                          {item.type}
+                        </td>
+                        <td className="text-recipepage-brandy-red font-bold pr-8 pt-3 pb-3">
+                          {item.amount}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
     </>
   );
 }

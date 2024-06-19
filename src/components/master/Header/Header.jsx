@@ -27,8 +27,7 @@ export default function Header() {
           className="w-[30px] h-[30px]"
           src={"/fem/paintbrush.svg"}
           width={30}
-          height={30}
-        ></Image>
+          height={30}></Image>
         <h1 className="text-white font-poppins font-medium hidden md:flex text-[20px] ">
           Frontend Mentor Submissions
         </h1>
@@ -39,8 +38,7 @@ export default function Header() {
         <div className="flex flex-row gap-8">
           <button
             onClick={() => setModal(true)}
-            className="text-white font-poppins font-medium text-[18px] hover:underline"
-          >
+            className="text-white font-poppins font-medium text-[18px] hover:underline">
             Why?
           </button>
         </div>
@@ -58,8 +56,7 @@ export default function Header() {
           </Link>
           <Link
             target="_blank"
-            href={"https://www.frontendmentor.io/profile/joshpickardme"}
-          >
+            href={"https://www.frontendmentor.io/profile/joshpickardme"}>
             <SiFrontendmentor className="w-[24px] h-[24px] text-white" />
           </Link>
         </div>

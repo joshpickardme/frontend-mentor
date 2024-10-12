@@ -1,43 +1,81 @@
-![Frontend Mentor](https://miro.medium.com/v2/resize:fit:1400/0*cfYEyKU7fH1Vz37c.png)
+# Turborepo starter
 
-<h1 align="center">Frontend Mentor</h1>
+This is an official starter Turborepo.
 
-<div align="center">
-  
-  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
-  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+## Using this example
 
-</div>
+Run the following command:
+
+```sh
+npx create-turbo@latest
+```
+
+## What's inside?
+
+This Turborepo includes the following packages/apps:
+
+### Apps and Packages
+
+- `docs`: a [Next.js](https://nextjs.org/) app
+- `web`: another [Next.js](https://nextjs.org/) app
+- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
+- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+
+Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+
+### Utilities
+
+This Turborepo has some additional tools already setup for you:
+
+- [TypeScript](https://www.typescriptlang.org/) for static type checking
+- [ESLint](https://eslint.org/) for code linting
+- [Prettier](https://prettier.io) for code formatting
+
+### Build
+
+To build all apps and packages, run the following command:
+
+```
+cd my-turborepo
+pnpm build
+```
+
+### Develop
+
+To develop all apps and packages, run the following command:
+
+```
+cd my-turborepo
+pnpm dev
+```
+
+### Remote Caching
+
+Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+
+By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+
+```
+cd my-turborepo
+npx turbo login
+```
+
+This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+
+Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+
+```
+npx turbo link
+```
 
 ## Useful Links
-<a target="_blank" href="https://www.frontendmentor.joshpickard.me">Showcase</a>
-<br />
-<a target="_blank" href="https://www.frontendmentor.io/profile/joshpickardme">Frontend Mentor Profile</a>
 
+Learn more about the power of Turborepo:
 
-## Description
-Welcome to a showcase of all my Frontend Mentor submissions. I decided instead of creating a repository for each challenge, I would consolidate all my challenges into one big web application. 
-
-You'll notice that sometimes I don't copy the challenges exactly 1:1. That's usually because I've done my own spin on the challenges to make them a little bit more exciting.
-
-## Challenges
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/blog-preview-card">Blog Preview Card</a>
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/newsletter-signup">Newsletter Signup</a>
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/interactive-rating">Interactive Rating</a>
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/order-summary">Order Summary</a>
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/qr-code">QR Code</a>
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/notifications-page">Notifications Page</a>
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/social-links">Social Links</a>
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/recipe-page">Recipe Page</a>
-- [x] <a target="_blank" href="https://www.frontendmentor.joshpickard.me/challenges/product-preview-card">Product Preview Card</a>
-
-## Installation
-If for whatever reason you wish to install the application locally, here are the instructions
-1. Clone the repository
-2. `npm install`
-3. `npm run dev`
+- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
+- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
+- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
+- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
+- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
+- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)

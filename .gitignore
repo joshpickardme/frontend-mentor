@@ -18,6 +18,9 @@ coverage
 # Turbo
 .turbo
 
+# Parcel
+.parcel-cache
+
 # Vercel
 .vercel
 

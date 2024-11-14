@@ -1,4 +1,13 @@
 {
+  "builds": [
+    {
+      "src": "challenges/social-links-profile/package.json",
+      "use": "@vercel/node",
+      "config": {
+        "distDir": "challenges/social-links-profile/dist"
+      }
+    }
+  ],
   "rewrites": [
     {
       "source": "/social-links-profile/(.*)",

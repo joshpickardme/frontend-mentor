@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/social-links-profile/(.*)",
+      "destination": "/challenges/social-links-profile/$1"
+    }
+  ]
+}

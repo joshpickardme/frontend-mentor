@@ -1,17 +1,8 @@
 {
-  "builds": [
-    {
-      "src": "challenges/social-links-profile/package.json",
-      "use": "@vercel/node",
-      "config": {
-        "distDir": "challenges/social-links-profile/dist"
-      }
-    }
-  ],
   "rewrites": [
     {
-      "source": "/social-links-profile/(.*)",
-      "destination": "/challenges/social-links-profile/$1"
+      "source": "/social-links-profile",
+      "destination": "/challenges/social-links-profile/dist/index.html"
     }
   ]
 }

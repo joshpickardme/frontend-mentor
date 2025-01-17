@@ -1,11 +1,11 @@
 # Frontend Mentor - Social Links Profile Solution
 
-This is my solution to the [Social Links Profile Challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) on Frontend Mentor.
+This is my solution to the [Blog Preview Card Challenge](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) on Frontend Mentor.
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://frontendmentor.joshpickard.me/blog-preview-card)
+- Live Site URL: [Add live site URL here](https://frontendmentor.joshpickard.me/blog-preview-card)
 
 ## Built with
 

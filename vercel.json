@@ -3,6 +3,10 @@
     {
       "source": "/social-links-profile",
       "destination": "/challenges/social-links-profile/dist/index.html"
+    },
+    {
+      "source": "/blog-preview-card",
+      "destination": "/challenges/blog-preview-card/dist/index.html"
     }
   ]
 }

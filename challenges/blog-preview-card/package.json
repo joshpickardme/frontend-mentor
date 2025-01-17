@@ -1,0 +1,10 @@
+{
+    "name": "blog-preview-card",
+    "description": "Frontend Mentor Blog Preview Card Challenge",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "npx parcel --open -p 1000 public/index.html",
+        "build": "npx parcel build public/index.html --dist-dir dist --no-cache --public-url /blog-preview-card"
+    }
+}
